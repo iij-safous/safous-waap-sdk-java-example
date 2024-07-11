@@ -27,7 +27,7 @@ public class ExampleTerminate {
             @Override
             public void onCompleted(OkHttpClient okHttpClient) throws IOException, GeneralSecurityException {
                 Request request = new Request.Builder()
-                    .url("https://simple-web.example.waap.safous.com")
+                    .url("https://simple-web.example-waap.waap.safous.com")
                     .get()
                     .build();
 

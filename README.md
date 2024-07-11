@@ -24,9 +24,9 @@
    ```
    [config]
    app_id = default
-   auth_endpoint = https://waap-auth.example.waap.safous.com
-   register_endpoint = https://waap-register.example.waap.safous.com
-   verify_endpoint = https://waap-client-verification.example.waap.safous.com
+   auth_endpoint = https://waap-auth.example-waap.waap.safous.com
+   register_endpoint = https://waap-register.example-waap.waap.safous.com
+   verify_endpoint = https://waap-client-verification.example-waap.waap.safous.com
    cert_path = test.p12
    cert_passphrase = PASSPHRASE_FOR_CLIENT_CERTIFICATE
    ```

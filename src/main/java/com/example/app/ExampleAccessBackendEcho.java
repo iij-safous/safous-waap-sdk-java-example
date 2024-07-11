@@ -27,7 +27,7 @@ public class ExampleAccessBackendEcho {
             @Override
             public void onCompleted(OkHttpClient okHttpClient) throws IOException, GeneralSecurityException {
                 Request request = new Request.Builder() 
-                    .url("https://echo.example.waap.safous.com/get?foo1=bar1&foo2=bar2")
+                    .url("https://echo.example-waap.waap.safous.com/get?foo1=bar1&foo2=bar2")
                     .get()
                     .build();
 
